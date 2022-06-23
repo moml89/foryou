@@ -103,7 +103,7 @@ nav a {
 }
 .body {
     border: 1px solid black;
-    background: linear-gradient(70deg, #063346, #3392ae, #063346 );
+    background: linear-gradient(70deg, #3392ae, #3392ae, #063346 );
 }
 main {
     flex: auto;
