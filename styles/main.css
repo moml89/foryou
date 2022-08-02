@@ -1,0 +1,190 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Source+Sans+Pro:wght@300&display=swap');
+/*   
+font-family: 'Cuprum', sans-serif; -menu
+font-family: 'Source Sans Pro', sans-serif; -body
+*/
+* {margin:0;padding:0;}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 15px 10px 20px;
+    width: auto;
+    min-width: 715px;
+    background: #ebebeb;
+}
+header {
+    width: auto;
+    min-width: 715px;
+    height: 75px;
+    background: linear-gradient(0deg,#3392ae 20%, #ebebeb);
+}
+.logo {
+    display: block;
+    float:left;
+    width: 75px; 
+    height: 75px;
+    transition: 1s;  
+}
+.logo:hover {
+    transform: rotate(360deg);
+}
+.navmenu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ebebeb;
+}
+.buttonmenu {
+    display: inline-block;
+    border: 2px solid #063346;
+    border-radius: 3px;
+    background: #3392ae;
+    box-shadow: 0 1px 2px #cf0c1c;
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    text-align: center;
+    min-width: 140px;
+    height: 24px;
+    margin: 0px 10px;
+    transition: 1s;
+    vertical-align: top;
+}
+.buttonmenu:hover {
+    transform: scale(1.3,1.2);
+}
+.player {
+    position: relative;
+    margin: 5px 0;
+    background: #3392ae;
+    padding: 0px;
+}
+.player button {
+    margin: 2px 5px;
+    padding: 0px;
+    border: none;
+    transition: 0.3s;
+}
+.player button:hover {
+    transform: scale(1.1,1.1);
+}
+.player img {
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    vertical-align: middle;
+}
+.player p {
+    border: 2px solid #063346;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    color: #ebebeb;
+    text-shadow: 0 2px 4px #cf0c1c;
+    font-family: 'Cuprum', sans-serif;
+    overflow: hidden;
+    font-size: 1em;
+}
+.slogan {
+    box-shadow: 0 2px 4px #cf0c1c, 0 -1px 2px #cf0c1c;
+    border: 2px solid #063346;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebebeb;
+    text-shadow: 0 2px 4px #cf0c1c;
+    margin-top: 5px;
+    font-family: 'Cuprum', sans-serif;
+    overflow: hidden;
+    font-size: 2em;
+}
+.main {
+    background: linear-gradient(180deg,#3392ae, #3392ae, #063346 );
+}
+main {
+    flex: auto;
+}
+.mainblocks {
+    display: flex;
+    justify-content: center;
+}
+.emptyblock {
+    display: block;
+    align-items: center;
+    float: left;
+    width: 75px;
+    height: auto;
+    border: 2px solid #063346;
+    border-radius: 3px;
+}
+.blocks img {
+    display: inline-block;
+    border: 2px solid #063346;
+    width: 140px;
+    height: 400px;
+    margin: 0px 10px;
+    box-shadow: 0 2px 4px #cf0c1c, 0 -2px 4px #cf0c1c;
+    opacity: 50%;
+    transition: 1s;
+}
+.blocks img:hover {
+    transform: scale(1.3,1.2);
+    opacity: 100%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100px;
+    width: auto;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #063346, #3392ae, #ebebeb );
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttonName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonClick {
+    border: 2px solid #063346;
+    border-radius: 3px;
+    display: block;
+    margin: 5px 0;
+    background: #3392ae;
+    color: #ebebeb;
+    text-shadow: 0 2px 4px #cf0c1c;
+    font-family: 'Cuprum', sans-serif;
+    overflow: hidden;
+    font-size: 1em;
+    transition: 0.3s;
+}
+.buttonClick:hover {
+    transform: scale(1.1,1.1);
+}
+hr {
+    border: none;
+    color: #063346;
+    background-color: #063346;
+    height: 2px;
+}
+/*логотип по центру
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+
