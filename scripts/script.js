@@ -3,13 +3,13 @@ var myHeading = document.querySelector('.slogan');
 function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name',myName);
-    myHeading.textContent = 'It`s All For You, ' + myName;
+    myHeading.textContent = 'It`s Not All For You! Fuck you ' + myName;
 }
 if(!localStorage.getItem('name')) {
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'It`s All For You, ' + storedName;
+    myHeading.textContent = 'It`s Not All For You! Fuck you ' + storedName;
 }
 myButton.onclick = function() {
     setUserName();
