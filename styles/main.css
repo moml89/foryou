@@ -31,11 +31,12 @@ main {
     position: relative;
     z-index: 1;
     flex: auto;
+    min-height: 450px;
     background: linear-gradient(180deg, #3392ae, #3392ae, #063346);
 }
 footer {
     position: relative;
-    z-index: 3;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
